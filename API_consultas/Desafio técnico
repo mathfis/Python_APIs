@@ -1,0 +1,54 @@
+# Desafio Back end
+
+# Boas-vindas ao Desafio Lacrei Saúde Back end!
+
+Nossa atividade voluntária consiste em 3 meses, com 10 horas semanais,
+e este desafio foi pensado para ser desenvolvido no tempo que você terá disponível
+ como pessoa voluntária na Lacrei Saúde.
+
+Temos dois encontros semanais, que são segundas e quartas das 19 horas às 20:30 horas,
+ sendo na segunda um encontro com sua Product Owner e Scrum Master para a abertura e
+ realização das cerimonias da Sprint e na quarta para que possa tirar suas dúvidas referentes
+  a estas atividades com sua Tech Lead.
+
+<aside>
+💡 **Proposta:** Desenvolver uma API que gerencia consultas médicas.
+
+</aside>
+
+**Linguagem:** Python
+
+**Framework:** [Django](https://www.djangoproject.com/) +
+                [Django Rest Framework](https://www.django-rest-framework.org/) (o uso de framework é opcional).
+
+**Requisitos e orientações:**
+
+1- APIs devem usar o padrão Rest API.
+
+2- Deve ser possível cadastrar uma pessoa profissional, assim como editar e deletar os cadastros.
+    O cadastro deve aceitar o campo "Nome Social".
+
+3- Deve ser possível cadastrar consultas, assim como editar e deletar os cadastros.
+    Cada consulta tem uma data e uma pessoa profissional vinculada.
+
+4- Deve ser possível pesquisar as consultas cadastradas pelo id da pessoa profissional relacionada.
+
+5- API retornando em formato JSON.
+
+6- Deve ser criado um README com orientações para criação do ambiente virtual para rodar a
+    aplicação desenvolvida e descrição das escolhas de arquitetura.
+
+**Diferenciais:**
+
+1- Inclusão de testes unitários
+
+2- Inclusão de sanitização de inputs e outras validações de segurança
+
+**Entrega do desafio:**
+
+Colocar o código em um repositório público (github ou gitlab) e
+ nos enviar o link de acesso em até cinco dias ( tempo de nossa Sprint )
+ após o recebimento deste para o e-mail: [dh@portallacrei.com.br](mailto:dh@portallacrei.com.br)
+
+> Agradecemos sua inscrição e sucesso na realização do desafio!!
+>

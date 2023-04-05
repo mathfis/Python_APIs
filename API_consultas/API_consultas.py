@@ -9,15 +9,15 @@ import json
 
 # ** Pessoas Profissionais **
 # cadastrar profissional                     - localhost/pprofis (POST)
-# editar cadastro de pessoa profissional     - localhost/pprofis/id_pprofis (PUT)
-# deletar cadastro de pessoa profissional    - localhost/pprofis/id_pprofis (DELETE)
+# editar cadastro de pessoa profissional     - localhost/pprofis/<int:id_pprofis> (PUT)
+# deletar cadastro de pessoa profissional    - localhost/pprofis/<int:id_pprofis> (DELETE)
 
 # ** Consultas **
 # pesquisar consultas                        - localhost/consultas (GET)
-# pesquisar consultas  por id_profis         - localhost/consultas/id_pprofis (GET)
-# cadastrar profissional                     - localhost/consultas (POST)
-# editar cadastro de profissional            - localhost/consultas/id_pprofis (PUT)
-# deletar cadastro de profissional           - localhost/consultas/id_pprofis (DELETE)
+# pesquisar consultas  por id_profis         - localhost/consultas/<int:id_pprofis> (GET)
+# cadastrar consulta                         - localhost/consultas (POST)
+# editar consulta                            - localhost/consultas/<int:id_consulta> (PUT)
+# deletar cadastro de consulta               - localhost/consultas/<int:id_consulta> (DELETE)
 
 
 # 4. Quais recursos - livros

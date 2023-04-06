@@ -60,10 +60,10 @@ API que acessa dois arquivos contendo informações sobre consultas e o cadastro
   2. Uma vez no postman, para:
      - Acessar consulta por id_profissional:
         *Método: GET, endereço: http://localhost:5000/consultas/[digite aqui o id_profissional]
-     - Inserir nova consulta por id_consulta:
-        *Método: POST, endereço: http://localhost:5000/consultas/[digite aqui o novo id_consulta]
-     - Inserir nova pessoa profissional por id_consulta:
-        *Método: POST, endereço: http://localhost:5000/pprofis/[digite aqui o novo id_profissional]
+     - Inserir nova consulta:
+        *Método: POST, endereço: http://localhost:5000/consultas/
+     - Inserir nova pessoa profissional:
+        *Método: POST, endereço: http://localhost:5000/pprofis/
      - Editar consulta por id_consulta:
         *Método: PUT, endereço: http://localhost:5000/consultas/[digite aqui o novo id_consulta]
      - Editar pessoa profissional por id_consulta:

@@ -13,19 +13,16 @@ import json
 # deletar cadastro de pessoa profissional    - localhost/pprofis/<int:id_pprofis> (DELETE)
 
 # ** Consultas **
-# pesquisar consultas                        - localhost/consultas (GET)
 # pesquisar consultas  por id_profis         - localhost/consultas/<int:id_pprofis> (GET)
 # cadastrar consulta                         - localhost/consultas (POST)
 # editar consulta                            - localhost/consultas/<int:id_consulta> (PUT)
 # deletar cadastro de consulta               - localhost/consultas/<int:id_consulta> (DELETE)
 
 
-# 4. Quais recursos - livros
+# 4. Quais recursos - consultas e pessoas_profissionais
 # Abertura dos arquivos json
 
-#OBS:
-#    - Implementar mensagem de erro para o caso de criação de nova consulta
-#       com id_consulta existente
+
 with open("pessoas_profissionais.json","r", -1, "utf-8") as jsonFile:
     pprofis = json.load(jsonFile)
     jsonFile.close()
@@ -36,19 +33,6 @@ with open("consultas.json","r", -1, "utf-8") as jsonFile:
 
 
 app = Flask(__name__)
-
-
-# Pesquisar todas as Pessoas Profissionais
-@app.route('/pprofis', methods=['GET'])
-def obter_pprofis():
-    return jsonify(pprofis)
-
-
-# Pesquisar todas as Consultas
-@app.route('/consultas', methods=['GET'])
-def obter_consultas():
-    return jsonify(consultas)
-
 
 # Pesquisar Consulta por id_pprofis
 @app.route('/consultas/<int:id_pprofis>', methods=['GET'])
